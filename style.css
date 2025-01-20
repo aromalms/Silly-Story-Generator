@@ -1,0 +1,39 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 50px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.story {
+  background: #ffc125;
+  color: #5e2612;
+  padding: 15px;
+  border-radius: 8px;
+  visibility: hidden;
+}
+
+.btn-custom {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.form-control {
+  max-width: 300px;
+}
+
+.form-label{
+    display: block;
+    text-align: center;
+}
+
+.form-control{
+        margin: auto;
+        display: block;
+}

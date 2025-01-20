@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Silly Story Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body class="container">
+    <h1 class="text-center mb-4 text-white fw-bold">SILLY STORY GENERATOR</h1>
+
+    <div class="mb-3">
+      <label for="customname" class="form-label text-warning">Enter custom name</label>
+      <input
+        id="customname"
+        type="text"
+        class="form-control"
+        placeholder="Your name"
+      />
+    </div>
+
+    <div class="mb-3 text-center">
+      <label class="form-label text-warning">Region:</label>
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="form-check me-3">
+          <input
+            id="us"
+            type="radio"
+            name="ukus"
+            value="us"
+            class="form-check-input"
+            checked
+          />
+          <label for="us" class="form-check-label text-white">US</label>
+        </div>
+        <div class="form-check">
+          <input
+            id="uk"
+            type="radio"
+            name="ukus"
+            value="uk"
+            class="form-check-input"
+          />
+          <label for="uk" class="form-check-label text-white">UK</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button class="btn btn-custom randomize">Generate Random Story</button>
+    </div>
+
+    <p class="story mt-4"></p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
